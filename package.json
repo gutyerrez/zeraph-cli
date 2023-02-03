@@ -1,0 +1,22 @@
+{
+  "name": "@zeraph/cli",
+  "version": "0.0.1-ALPHA",
+  "license": "MIT",
+  "types": "@types/index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "setup": "tsc --build && npm i -g ."
+  },
+  "engines": {
+    "node": "19.6.x"
+  },
+  "bin": {
+    "zeraph": "dist/index.js"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
